@@ -6,7 +6,19 @@
     <link rel="stylesheet" href="css-programming.css">
   </head>
   <body>
+    <style>
+      #header {
+        animation: rotation 2s ease 0s infinite alternate none running;
+      }
+      @keyframes rotation {
+        0% {
+          transform: rotateX(0deg)
+        }
+        100% {
+            transform: rotateX(360deg)
+        }
+      }
+    </style>
     <h1 id="header">CSS を使ったプログラミング</h1>
-    <script src="animation.js"></script>
   </body>
 </html>
